@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-image: url(tech.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech News</title>
+    <style>
+        .news-container {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .news-card {
+            background-color: #FFFFFF;
+            width: 30%;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .news-card:hover {
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .news-card h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .news-card p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            background-color: #007BFF;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="news-container">
+        <div class="news-card">
+            <h2>Apple launches new iPhone 13</h2>
+            <p>Apple has unveiled its latest iPhone 13, offering improved cameras, a redesigned Home button, and faster processors.</p>
+            <a href="https://www.apple.com/iphone-13/" class="button">Read More</a>
+        </div>
+        <div class="news-card">
+            <h2>Microsoft releases Windows 11</h2>
+            <p>Microsoft has officially launched Windows 11, a new major version of its operating system that brings significant performance improvements and a revamped interface.</p>
+            <a href="https://www.microsoft.com/en-us/windows/windows-11" class="button">Read More</a>
+        </div>
+        <div class="news-card">
+            <h2>Google unveils new Pixel smartphones</h2>
+            <p>Google has introduced a range of new Pixel smartphones, offering the latest Android software, a high-resolution camera, and improved battery life.</p>
+            <a href="https://store.google.com/us/category/pixel" class="button">Read More</a>
+        </div>
+    </div>
+</body>
+</html>

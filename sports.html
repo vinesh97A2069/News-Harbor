@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-image: url(sports.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .heading {
+            background-color: blue;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .news {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .news-item {
+            width: 30%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .news-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color:#FFFFFF;
+        }
+
+        .news-date {
+            color: #FFFFFF;
+            margin-bottom: 10px;
+        }
+
+        .news-content {
+            color:#FFFFFF;
+        }
+
+        @media screen and (max-width: 768px) {
+            .news-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        Sports News
+    </div>
+    <div class="news">
+        <div class="news-item">
+            <div class="news-title">New FIFA Rankings: Top 10 Football Nations</div>
+            <div class="news-date">September 2, 2021</div>
+            <div class="news-content">FIFA has released its latest world rankings for national teams, with several countries maintaining their spots at the top...</div>
+        </div>
+        <div class="news-item">
+            <div class="news-title">Ballon d'Or 2021: Full List of Nominees</div>
+            <div class="news-date">August 30, 2021</div>
+            <div class="news-content">The nominees for the 2021 Ballon d'Or have been announced, with a mix of old faces and rising stars among the list of contenders...</div>
+        </div>
+        <div class="news-item">
+            <div class="news-title">Roger Federer vs Novak Djokovic: Final Predictions and Key Match-Ups</div>
+            <div class="news-date">August 24, 2021</div>
+            <div class="news-content">After months of waiting, the ATP Finals is upon us. Will Roger Federer and Novak Djokovic make it to the final? We provide predictions and key match-ups...</div>
+        </div>
+    </div>
+</body>
+</html>
